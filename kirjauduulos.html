@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÄÄNESTYS SOVELLUS</title>
+   
+    <link href="tyylit/bootstrap.min.css" rel="stylesheet">
+    
+
+    <body class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ÄÄNESTYSSOVELLUS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">ETUSIVU
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rekisteröidy.html">Rekisteröidy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kirjaudu.html">Kirjaudu sisään</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kirjauduulos.html">Kirjaudu ulos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teeaanestys.html">Lisää äänestyksiä</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="poistaaanestys.html">Poista äänestyksiä</a>
+              </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <H3 class="mt-5 text-center">HALUATKO KIRJAUTUA ULOS</H3>
+
+  <div class=" text-uppercase d-grid gap-2">
+     <button class="btn btn-lg btn-danger " type="click" id="ulos" onclick="ulos()">KYLLÄ</button>
+     <button class="btn btn-lg btn-primary " type="click" id="sisaan" onclick="sisaan()">EI</button></div>
+  
+  <script src="javascript/ulos.js"></script>
+  <script src="javascript/bundle.js"></script>
+
+    
+</body>
+</html>
